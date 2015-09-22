@@ -31,7 +31,6 @@ GEM
       net-ssh (>= 2.6.5)
     net-ssh (2.6.7)
     netrc (0.7.7)
-    newrelic_rpm (3.6.3.104)
     nokogiri (1.5.9)
     pgbackups-archive (0.2.0)
       bundler (>= 1.2.3)
@@ -48,6 +47,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  newrelic_rpm (~> 3.6.3.104)
   pgbackups-archive (~> 0.2.0)
   rake (~> 10.0.4)
