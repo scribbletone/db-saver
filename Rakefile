@@ -4,8 +4,6 @@ class RunPgbackupsArchive
   def call
     Heroku::Client::PgbackupsArchive.perform
   end
-
-  add_transaction_tracer :call, category: :task
 end
 
 namespace :pgbackups do
